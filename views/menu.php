@@ -58,6 +58,7 @@ if (Rol::ROL_REPRESENTANTE_LEGAL == $_SESSION["rol_id"] || (Rol::ROL_CONTROL_ESC
                                     <li><a href="ce-planteles-institucion.php">Mis programas de Estudio</a></li>
                                     <li><a href="ce-planteles-institucion-equivalencia.php">Tr&aacute;mite de Equivalencias</a></li>
                                     <li><a target="_blank" href="https://tituloelectronico.jalisco.gob.mx:8443/ies/login.jsp">App Titulación Electrónica</a></li>
+                                    <li><a target="_blank" href="https://subses.jalisco.gob.mx/tramites-detalle/tramite-para-la-certificacion-de-documentacion-oficial">App Folios</a></li>
                                     <li><a href=<?= "ce-catalogo-titulo-electronico.php?institucion_id=" . $resultadoInstitucion["data"][0]["id"] ?>>Descarga de Constancia de T&iacute;tulo Electr&oacute;nico</a></li>
                                 </ul>
                             </li>
